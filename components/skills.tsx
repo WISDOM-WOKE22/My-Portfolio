@@ -30,6 +30,7 @@ export default function Skills () {
                     <Skill skill="Next-JS"/>
                     <Skill skill="Firebase"/>
                     <Skill skill="AWS"/>
+                    <Skill skill="SQL"/>
                     <Skill skill="MYSQL"/>
                     <Skill skill="POSTGRES"/>
                 </div>
