@@ -8,13 +8,14 @@ interface Props{
     link: string;
     description: string;
     image: string;
+    reverse?: boolean
 }
 
-export default function Project ({ title, link, description, image }: Props) {
+export default function Project ({ title, link, description, image, reverse }: Props) {
     return (
         <div>
-            <div className="flex md:flex-row flex-col gap-10">
-                <Image src={image} alt="amidarh image" className="w-full max-w-xl border-gray-400" width={500} height={400}/>
+            <div className={`flex ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} ${reverse ? 'flex-col' : 'flex-col'} gap-10`}>
+                <Image src={image} alt={`${title} image`} className="w-full max-w-xl border-gray-400" width={500} height={400}/>
 
                 <div className="flex flex-col justify-between">
                     <div className="flex flex-col justify-center">
