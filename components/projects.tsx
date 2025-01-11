@@ -48,7 +48,7 @@ export default function Projects () {
                         image="/testpro.png" 
                         title="Testpro" 
                         description="Testpro is a cbt testing application that allows users to take test online and get prepared for post UTME" 
-                        link="test-pro-client.vercel.app"
+                        link="https://test-pro-client.vercel.app"
                         reverse={true}
                     />
                 </div>
