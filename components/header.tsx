@@ -28,6 +28,9 @@ export default function Header () {
                         <Link href="#contact">
                             <p className="cursor-pointer">Contact</p>
                         </Link>
+                        <Link href="https://github.com/WISDOM-WOKE22" target="_blank">
+                            <p className="cursor-pointer">Github</p>
+                        </Link>
                     </div>
 
                     <div className="md:hidden">
@@ -52,6 +55,11 @@ export default function Header () {
                                     <Link href='#contact'>
                                         <p className="cursor-pointer">Contact</p>
                                     </Link>
+                                </DropdownMenuItem>
+                                <DropdownMenuItem>
+                                <Link href="https://github.com/WISDOM-WOKE22" target="_blank">
+                                    <p className="cursor-pointer">Github</p>
+                                </Link>
                                 </DropdownMenuItem>
                             </DropdownMenuContent>
                         </DropdownMenu>
