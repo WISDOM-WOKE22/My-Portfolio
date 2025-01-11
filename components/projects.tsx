@@ -44,6 +44,13 @@ export default function Projects () {
                         description="LMT-Trucking is a Car Shipping and Vehicle Shipping Services Company that offers a wide range of services to meet the needs of our customers such as car shipping, vehicle shipping, and more" 
                         link="https://lmttrucking.vercel.app/"
                     />
+                      <Project
+                        image="/testpro.png" 
+                        title="Testpro" 
+                        description="Testpro is a cbt testing application that allows users to take test online and get prepared for post UTME" 
+                        link="test-pro-client.vercel.app"
+                        reverse={true}
+                    />
                 </div>
             </div>
         </div>
