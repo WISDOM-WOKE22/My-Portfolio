@@ -59,7 +59,7 @@ export default function Projects () {
                     />
                       <Project
                         image="/gr.png" 
-                        title="Testpro" 
+                        title="GR25" 
                         description="this platform that takes data about attendees, ministers, and testimonies during the Glory reign 2025 (gr25) event" 
                         link="https://gr25.org/"
                         reverse={true}
