@@ -19,6 +19,7 @@ export default function Skills () {
                     <Skill skill="Javascript"/>
                     <Skill skill="Typescript"/>
                     <Skill skill="React-JS"/>
+                    <Skill skill="Vue-JS"/>
                     <Skill skill="Node-JS"/>
                     <Skill skill="Express-JS"/>
                     <Skill skill="Tailwind"/>
