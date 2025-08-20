@@ -51,7 +51,7 @@ export default function Projects () {
                         link="https://test-pro-client.vercel.app"
                         reverse={true}
                     />
-                      <Project
+                      {/* <Project
                         image="/straqa.png" 
                         title="Straqa" 
                         description="Data management and Payment Processing into one Platform All Powered by AI." 
@@ -63,7 +63,7 @@ export default function Projects () {
                         description="this platform that takes data about attendees, ministers, and testimonies during the Glory reign 2025 (gr25) event" 
                         link="https://gr25.org/"
                         reverse={true}
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
