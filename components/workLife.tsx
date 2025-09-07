@@ -13,14 +13,14 @@ export default function WorkLife () {
                 </div>
                 <div className="mt-10 space-y-5">
                     <Work
-                        company="Fowgate LLC"
-                        description="Worked as a FullStack Developer Developing reusable React components and integrating them with APIs for Enterprise Resource Planning (ERP) systems utilized by various companies."
-                        date="Nov 2023 - Dec 2024"
-                    />
-                    <Work
                         company="EGlobalSphere"
                         date="Jan 2025 - Present"
                         description="Working as a Frontend developer for both web and mobile applications. Developing reusable React components and integrating them with APIs for Clients around the world"
+                    />
+                    <Work
+                        company="Fowgate LLC"
+                        description="Worked as a FullStack Developer Developing reusable React components and integrating them with APIs for Enterprise Resource Planning (ERP) systems utilized by various companies."
+                        date="Nov 2023 - Dec 2024"
                     />
                 </div>
             </div>

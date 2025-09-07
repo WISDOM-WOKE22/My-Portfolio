@@ -13,6 +13,12 @@ export default function Projects () {
                 </div>
                 <div className="flex flex-col gap-10">
                     <Project
+                        image="/trupper.png" 
+                        title="Trupper by Amidarh" 
+                        description="Trupper is a comprehensive exam management system designed to streamline the entire exam process for institutions." 
+                        link="https://site.amidarh.com/trupper"
+                    />
+                    <Project
                         image="/amidarh.png" 
                         title="Amidarh" 
                         description="Amidarh is an edtech/productivity platform that offers various products to keep it's users always ahead" 
