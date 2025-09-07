@@ -31,8 +31,14 @@ export default function Skills () {
                     <Skill skill="Next-JS"/>
                     <Skill skill="Firebase"/>
                     <Skill skill="AWS"/>
+                    <Skill skill="AWS (EC2)"/>
                     <Skill skill="SQL"/>
                     <Skill skill="MYSQL"/>
+                    <Skill skill="FastAPI"/>
+                    <Skill skill="Azure"/>
+                    <Skill skill="Linux"/>
+                    <Skill skill="Docker"/>
+                    <Skill skill="Redis"/>
                     <Skill skill="POSTGRES"/>
                 </div>
             </div>
