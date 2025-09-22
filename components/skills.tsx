@@ -40,6 +40,9 @@ export default function Skills () {
                     <Skill skill="Docker"/>
                     <Skill skill="Redis"/>
                     <Skill skill="POSTGRES"/>
+                    <Skill skill="Convex"/>
+                    <Skill skill="Vite-test"/>
+                    <Skill skill="Postman"/>
                 </div>
             </div>
         </div>

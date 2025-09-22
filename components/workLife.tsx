@@ -18,6 +18,11 @@ export default function WorkLife () {
                         description="Working as a Frontend developer for both web and mobile applications. Developing reusable React components and integrating them with APIs for Clients around the world"
                     />
                     <Work
+                        company="Rivva"
+                        description="worked as a QA tester using tools like Convex-test, vitest, Bruno, Fast-check, and more"
+                        date="Junly 2025 - Present"
+                    />
+                    <Work
                         company="Fowgate LLC"
                         description="Worked as a FullStack Developer Developing reusable React components and integrating them with APIs for Enterprise Resource Planning (ERP) systems utilized by various companies."
                         date="Nov 2023 - Dec 2024"

@@ -23,39 +23,42 @@ export default function Projects () {
                         title="Amidarh" 
                         description="Amidarh is an edtech/productivity platform that offers various products to keep it's users always ahead" 
                         link="https://amidarh.com"
+                        reverse={true}
                     />
                     <Project
                         image="/rekrd.png" 
                         title="REKRD" 
                         description="Rekrd Let it's users take control of their finance by tracking their revenue, manage their expenses, sales, clients, inventory, and more" 
                         link="#"
-                        reverse={true}
+                        // reverse={true}
                     />
                     <Project
                         image="/bubble.png" 
                         title="Bubble" 
                         description="Bubble is a social media platform that allows users to share their thoughts, ideas, and connect with other users, and also it's market place allows users to buy and sell products" 
                         link="#"
+                        reverse={true}
                     />
                     <Project
                         image="/je-express.png" 
                         title="JE-Express" 
                         description="Je-express is a booking platform that allows users to book for a ride, apartment, hotel, and more" 
                         link="#"
-                        reverse={true}
+                        // reverse={true}
                     />
                     <Project
                         image="/lmt.png" 
                         title="LMT-Trucking" 
                         description="LMT-Trucking is a Car Shipping and Vehicle Shipping Services Company that offers a wide range of services to meet the needs of our customers such as car shipping, vehicle shipping, and more" 
                         link="https://lmttrucking.vercel.app/"
+                        reverse={true}
                     />
                       <Project
                         image="/testpro.png" 
                         title="Testpro" 
                         description="Testpro is a cbt testing application that allows users to take test online and get prepared for post UTME" 
                         link="https://test-pro-client.vercel.app"
-                        reverse={true}
+                        // reverse={true}
                     />
                       {/* <Project
                         image="/straqa.png" 
