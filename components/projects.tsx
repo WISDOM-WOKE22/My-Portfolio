@@ -3,10 +3,15 @@ import { Separator } from "./ui/separator";
 
 export default function Projects () {
     return (
-        <div className="flex items-center justify-center py-10 px-3" id="projects">
+        <section className="flex items-center justify-center py-10 px-3" id="projects">
             <div className="w-full max-w-6xl">
                 <div className="mb-10">
-                    <h2 className="text-2xl">My Projects</h2>
+                    <h2 className="text-2xl">Production Projects & Case Studies</h2>
+                    <p className="mt-4 text-[18px] text-[#686868]">
+                        Real-world production systems built with modern full-stack technologies, AI integration, 
+                        and scalable cloud architecture. Each project demonstrates expertise in building 
+                        performant, scalable applications serving real users.
+                    </p>
                 </div>
                 <div className="my-10">
                     <Separator/>
@@ -15,15 +20,17 @@ export default function Projects () {
                     <Project
                         image="/trupper.png" 
                         title="Trupper by Amidarh" 
-                        description="Trupper is a comprehensive exam management system designed to streamline the entire exam process for institutions." 
-                        link="https://site.amidarh.com/trupper"
+                        description="Multitenant exam management system streamlining institutional exam processes. Built with Next.js, MERN stack, and real-time monitoring capabilities. Production system serving multiple institutions with complete data isolation." 
+                        link="/projects/trupper-multitenant-exam-system"
+                        projectPage={true}
                     />
                     <Project
                         image="/amidarh.png" 
-                        title="Amidarh" 
-                        description="Amidarh is an edtech/productivity platform that offers various products to keep it's users always ahead" 
-                        link="https://amidarh.com"
+                        title="Amidarh AI Learning Platform" 
+                        description="AI-powered EdTech platform offering personalized learning experiences. Production system built with Next.js, MERN stack, and AWS cloud infrastructure. Serving thousands of users with AI-driven content recommendations and real-time features." 
+                        link="/projects/amidarh-ai-learning-platform"
                         reverse={true}
+                        projectPage={true}
                     />
                     <Project
                         image="/rekrd.png" 
@@ -48,10 +55,11 @@ export default function Projects () {
                     />
                     <Project
                         image="/lmt.png" 
-                        title="LMT-Trucking" 
-                        description="LMT-Trucking is a Car Shipping and Vehicle Shipping Services Company that offers a wide range of services to meet the needs of our customers such as car shipping, vehicle shipping, and more" 
-                        link="https://lmttrucking.vercel.app/"
+                        title="LMT Trucking Logistics Platform" 
+                        description="Car shipping and vehicle transportation platform built with Next.js. Production logistics system offering real-time tracking, booking management, and transparent pricing for vehicle shipping services." 
+                        link="/projects/lmt-trucking-logistics-platform"
                         reverse={true}
+                        projectPage={true}
                     />
                       <Project
                         image="/testpro.png" 
@@ -75,6 +83,6 @@ export default function Projects () {
                     /> */}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

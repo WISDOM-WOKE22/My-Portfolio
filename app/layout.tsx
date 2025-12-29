@@ -8,36 +8,81 @@ import { ThemeProvider } from "@/components/themeProvider";
 //   subsets: ["latin"],
 // });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wisdomwoke.com";
+
 export const metadata: Metadata = {
-  title: "Wisdom Woke | Full-Stack Software Developer",
-  description: "FullStack Software developer. I am a passionate and continuously learning engineer who thrives on embracing challenges that push the boundaries of my current skill set, allowing me to grow and contribute meaningfully to innovative projects.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Wisdom Woke | Full-Stack Developer & AI Engineer",
+    template: "%s | Wisdom Woke"
+  },
+  description: "Full-Stack Developer & AI Engineer specializing in AI-powered EdTech platforms, scalable MERN/Next.js systems, cloud deployments (AWS/GCP), and real-time applications. Production experience with Amidarh, Trupper, and enterprise systems.",
   keywords: [
     "Full-Stack Developer",
+    "AI Engineer",
+    "EdTech Developer",
+    "MERN Stack Developer",
+    "Next.js Developer",
+    "AWS Cloud Engineer",
+    "GCP Developer",
+    "Real-time Applications",
     "Software Engineer",
-    "Web Development",
     "JavaScript",
     "TypeScript",
     "React",
     "Node.js",
     "MongoDB",
+    "PostgreSQL",
     "Backend Development",
     "Frontend Development",
-    "AWS",
+    "AWS EC2",
+    "Docker",
+    "Redis",
+    "Python",
+    "FastAPI",
   ],
-  robots: "index, follow",
+  authors: [{ name: "Wisdom Woke" }],
+  creator: "Wisdom Woke",
+  publisher: "Wisdom Woke",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Wisdom Woke | Full-Stack Software Developer",
-    description: "Full-stack software developer specializing in modern web technologies. Building scalable applications with clean code and innovative solutions.",
     type: "website",
     locale: "en_US",
+    url: siteUrl,
     siteName: "Wisdom Woke Portfolio",
+    title: "Wisdom Woke | Full-Stack Developer & AI Engineer",
+    description: "Full-Stack Developer & AI Engineer with production experience in AI-powered EdTech platforms, scalable MERN/Next.js systems, and cloud deployments. Expert in real-time applications and backend quality engineering.",
+    images: [
+      {
+        url: `${siteUrl}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Wisdom Woke - Full-Stack Developer & AI Engineer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wisdom Woke | Full-Stack Software Developer",
-    description: "Full-stack software developer specializing in modern web technologies.",
-    creator: "@WISDOMWOKE1"
-  }
+    title: "Wisdom Woke | Full-Stack Developer & AI Engineer",
+    description: "Full-Stack Developer & AI Engineer specializing in AI-powered EdTech platforms and scalable systems.",
+    creator: "@WISDOMWOKE1",
+    site: "@WISDOMWOKE1",
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
+  category: "Technology",
+  classification: "Portfolio",
 };
 
 

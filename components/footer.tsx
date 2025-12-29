@@ -13,14 +13,14 @@ export default function Footer () {
                     <p>Built with ❤️ By wisdom woke</p>
 
                     <div className="flex flex-row gap-4 items-center">
-                        <Link href="https://github.com/WISDOM-WOKE22" target="_blank">
-                            <Github/>
+                        <Link href="https://github.com/WISDOM-WOKE22" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <Github aria-hidden="true"/>
                         </Link>
-                        <Link target="_blank" href="https://linkedin.com/in/wisdom-woke-703488237/">
-                            <Linkedin/>
+                        <Link target="_blank" href="https://linkedin.com/in/wisdom-woke-703488237/" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <Linkedin aria-hidden="true"/>
                         </Link>
-                        <Link target="_blank" href="https://twitter.com/WISDOMWOKE1">
-                            <X/>
+                        <Link target="_blank" href="https://twitter.com/WISDOMWOKE1" rel="noopener noreferrer" aria-label="Twitter Profile">
+                            <X aria-hidden="true"/>
                         </Link>
                     </div>
                 </div>

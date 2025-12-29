@@ -6,10 +6,15 @@ interface skillProp {
 
 export default function Skills () {
     return (
-        <div className="flex items-center justify-center py-10 px-3" id="skills">
+        <section className="flex items-center justify-center py-10 px-3" id="skills">
             <div className="w-full max-w-6xl">
                 <div>
-                    <h1 className="text-4xl">My Work Skills</h1>
+                    <h2 className="text-4xl">Technical Skills & Expertise</h2>
+                    <p className="mt-4 text-[18px] text-[#686868]">
+                        Production-proven skills across full-stack development, AI engineering, cloud infrastructure, 
+                        and modern web technologies. Expertise demonstrated through real-world applications serving 
+                        thousands of users.
+                    </p>
                 </div>
                 <div className="mt-10">
                     <Separator/>
@@ -45,7 +50,7 @@ export default function Skills () {
                     <Skill skill="Postman"/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

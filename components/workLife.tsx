@@ -3,10 +3,14 @@ import Work from "./work";
 
 export default function WorkLife () {
     return (
-        <div className="flex items-center justify-center py-10 px-3">
+        <section className="flex items-center justify-center py-10 px-3" id="experience">
             <div className="w-full max-w-6xl">
                 <div className="mb-10">
-                    <h2 className="text-2xl">My Work Life</h2>
+                    <h2 className="text-2xl">Professional Experience</h2>
+                    <p className="mt-4 text-[18px] text-[#686868]">
+                        Production experience building scalable applications for global clients, enterprise systems, 
+                        and quality engineering across frontend, backend, and mobile platforms.
+                    </p>
                 </div>
                 <div className="my-10">
                     <Separator/>
@@ -29,6 +33,6 @@ export default function WorkLife () {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -1,3 +1,5 @@
+"use client"
+
 import * as React from "react"
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
@@ -19,16 +21,19 @@ export default function Header () {
 
                 <div className="flex gap-4 flex-row items-center">
                     <div className="flex gap-4 flex-row items-center max-md:hidden">
-                        <Link href='#about'>
+                        <Link href='/#about' aria-label="About Wisdom Woke">
                             <p className="cursor-pointer">About</p>
                         </Link>
-                        <Link href="#projects">
+                        <Link href="/#projects" aria-label="View Projects">
                             <p className="cursor-pointer">Projects</p>
                         </Link>
-                        <Link href="#contact">
+                        <Link href="/#experience" aria-label="Professional Experience">
+                            <p className="cursor-pointer">Experience</p>
+                        </Link>
+                        <Link href="/#contact" aria-label="Contact">
                             <p className="cursor-pointer">Contact</p>
                         </Link>
-                        <Link href="https://github.com/WISDOM-WOKE22" target="_blank">
+                        <Link href="https://github.com/WISDOM-WOKE22" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
                             <p className="cursor-pointer">Github</p>
                         </Link>
                     </div>
@@ -42,22 +47,27 @@ export default function Header () {
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end">
                                 <DropdownMenuItem>
-                                    <Link href='#about'>
+                                    <Link href='/#about' aria-label="About Wisdom Woke">
                                         <p className="cursor-pointer">About</p>
                                     </Link>
                                 </DropdownMenuItem>
                                 <DropdownMenuItem>
-                                    <Link href='#projects'>
+                                    <Link href='/#projects' aria-label="View Projects">
                                         <p className="cursor-pointer">Projects</p>
                                     </Link>
                                 </DropdownMenuItem>
                                 <DropdownMenuItem>
-                                    <Link href='#contact'>
+                                    <Link href='/#experience' aria-label="Professional Experience">
+                                        <p className="cursor-pointer">Experience</p>
+                                    </Link>
+                                </DropdownMenuItem>
+                                <DropdownMenuItem>
+                                    <Link href='/#contact' aria-label="Contact">
                                         <p className="cursor-pointer">Contact</p>
                                     </Link>
                                 </DropdownMenuItem>
                                 <DropdownMenuItem>
-                                <Link href="https://github.com/WISDOM-WOKE22" target="_blank">
+                                <Link href="https://github.com/WISDOM-WOKE22" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
                                     <p className="cursor-pointer">Github</p>
                                 </Link>
                                 </DropdownMenuItem>
