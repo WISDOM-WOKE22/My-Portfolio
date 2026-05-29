@@ -46,14 +46,21 @@ export default function Projects () {
                         link="#"
                         reverse={true}
                     />
-                    <Project
-                        image="/je-express.png" 
-                        title="JE-Express" 
-                        description="Je-express is a booking platform that allows users to book for a ride, apartment, hotel, and more" 
-                        link="#"
+                     <Project
+                        image="/flow.png" 
+                        title="Flow" 
+                        description="Flow uses AI to generate personalized courses, flashcards, and quizzes from any subject — so you learn faster with real understanding, not just memorization." 
+                        link="https://test-flow.amidarh.com"
                         // reverse={true}
                     />
                     <Project
+                        image="/8shoz.png" 
+                        title="8shoz" 
+                        description="8shoz is a movie streaming platform that allows users to watch movies online and also live stream and watch movies with friends" 
+                        link="#"
+                        reverse={true}
+                    />
+                    {/* <Project
                         image="/lmt.png" 
                         title="LMT Trucking Logistics Platform" 
                         description="Car shipping and vehicle transportation platform built with Next.js. Production logistics system offering real-time tracking, booking management, and transparent pricing for vehicle shipping services." 
@@ -67,7 +74,7 @@ export default function Projects () {
                         description="Testpro is a cbt testing application that allows users to take test online and get prepared for post UTME" 
                         link="https://test-pro-client.vercel.app"
                         // reverse={true}
-                    />
+                    /> */}
                       {/* <Project
                         image="/straqa.png" 
                         title="Straqa" 

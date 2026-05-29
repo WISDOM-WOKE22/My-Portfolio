@@ -10,9 +10,10 @@ interface Props{
     image: string;
     reverse?: boolean;
     projectPage?: boolean;
+    scale?: boolean;
 }
 
-export default function Project ({ title, link, description, image, reverse, projectPage }: Props) {
+export default function Project ({ title, link, description, image, reverse, projectPage, scale }: Props) {
     const isExternal = link.startsWith("http");
     
     return (
@@ -21,7 +22,7 @@ export default function Project ({ title, link, description, image, reverse, pro
                 <Image 
                     src={image} 
                     alt={`${title} - ${description}`} 
-                    className="w-full max-w-xl border-gray-400" 
+                    className={`w-full max-w-xl border-gray-400 ${scale ? 'max-h-[400px] max-w-[380px]' : ''}`} 
                     width={500} 
                     height={400}
                     loading="lazy"

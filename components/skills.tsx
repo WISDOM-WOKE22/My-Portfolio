@@ -48,6 +48,15 @@ export default function Skills () {
                     <Skill skill="Convex"/>
                     <Skill skill="Vite-test"/>
                     <Skill skill="Postman"/>
+                    <Skill skill="RUST"/>
+                    <Skill skill="AI"/>
+                    <Skill skill="YOLO"/>
+                    <Skill skill="TensorFlow"/>
+                    <Skill skill="PyTorch"/>
+                    <Skill skill="OpenCV"/>
+                    <Skill skill="NumPy"/>
+                    <Skill skill="Pandas"/>
+                    <Skill skill="Matplotlib"/>
                 </div>
             </div>
         </section>

@@ -18,13 +18,13 @@ export default function WorkLife () {
                 <div className="mt-10 space-y-5">
                     <Work
                         company="EGlobalSphere"
-                        date="Jan 2025 - Present"
-                        description="Working as a Frontend developer for both web and mobile applications. Developing reusable React components and integrating them with APIs for Clients around the world"
+                        date="Jan 2025 - May 2026"
+                        description="Worked as a FullStack developer for both web, desktop and mobile applications. Building scalable applications for global clients, enterprise systems, and quality engineering across frontend, backend, and mobile platforms. And also worked as an AI Engineer building AI-powered applications for global clients."
                     />
                     <Work
                         company="Rivva"
                         description="worked as a QA tester using tools like Convex-test, vitest, Bruno, Fast-check, and more"
-                        date="Junly 2025 - Present"
+                        date="July 2025 - August 2025"
                     />
                     <Work
                         company="Fowgate LLC"
